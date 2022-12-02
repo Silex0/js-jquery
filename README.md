@@ -4,7 +4,6 @@ js dom to jquery
 ##  
 Sivulta lisätty animaatio avatessa ja asioiden lisäämisessä listaan, taustavärin vaihto vaihdettu myös ja se tallenttu evästeisiin
 
-
 Pushattu githubiin valmiina.
 
 ##
