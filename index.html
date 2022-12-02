@@ -1,0 +1,44 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>TO-DO</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="#1a1a1a" name="theme-color">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
+</head>
+
+<body class="root">
+<div class="box">
+    <h1>TO-DO</h1>
+    <br>
+    <form style="color:unset">
+        <input id="task-input" placeholder="Add task" type="text" autofocus="autofocus" checked="checked" minlength="3">
+        <button id="add-button" onclick="add()"><span>+</span></button>
+        <br>
+        <br>
+        <br>
+        <table id="list"></table>
+    </form>
+
+    <ul id="lista">
+    </ul>
+    <br>
+    <br>
+    <label for="pulldown">Background color change</label><br><br>
+    <select id="pulldown" name="pulldownLabel">
+        <option value="#1a1a1a">Grey
+        <option value="#7AACFE">Light Blue
+        <option value="#78E48A">Light Green
+        <option value="#9408AA">Purple
+    </select>
+    <br>
+</div>
+
+
+</body>
+<script src="script.js"></script>
+</html>

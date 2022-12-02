@@ -1,0 +1,32 @@
+table {
+  min-width: 480px;
+  max-width: 640px;
+  margin: auto;
+  border: white solid thin;
+  border-top: none;
+}
+
+td {
+  border-top: white solid thin;
+}
+
+.root {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.box {
+  margin: auto;
+  padding: 1em;
+  min-width: 480px;
+  max-width: 640px;
+  text-align: center;
+}
+
+.done {
+  border-right: white solid thin;
+}
+
+.delete {
+  border-left: white solid thin;
+}
